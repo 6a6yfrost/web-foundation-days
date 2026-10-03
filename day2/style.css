@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Main */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Features Grid */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.features li {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  nav {
+    gap: 10px;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+}
