@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was system design, especially understanding how different components work together when an application receives many requests at the same time. Concepts such as load balancing, caching, database transactions, and stateless servers were challenging because I had to understand not only what they do but also why they are needed. I overcame this by breaking the concepts into smaller parts, studying practical examples, and applying them to the TicketHub design. Drawing an architecture diagram also helped me understand how requests move through a system.
+
+Based on the feedback I received on my capstone, I would improve its reliability and user experience. I would focus on making the main user flows easier to use, improving error messages, and testing important features such as authentication and saving data. I would also improve the deployment process so that the application works consistently outside my local development environment. I would use feedback to prioritize the changes that have the greatest impact on users.
+
+Next, I want to learn more about cloud deployment, automated testing, and database performance optimization. I would also like to gain practical experience with monitoring, CI/CD pipelines, and application security. These skills would help me build applications that are not only functional but also secure, reliable, and capable of handling real-world traffic.
